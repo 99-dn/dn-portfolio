@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY VC </title>
+</head>
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        
+    }
+
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: linear-gradient(90deg, #e5f0fb 30%, #e6ffe6 50%);
+        animation: back 3s infinite alternate-reverse;
+      
+    }
+
+    @keyframes back {
+        0% {background-position: 100% 100%;}
+        100% {background-position: 0 0;}
+    }
+
+    .navbar{
+        justify-content: space-between;
+        background: rgb(0, 0, 0);
+        display: flex;
+        padding: 30px;
+    }
+    .anchor{
+        margin-right: 10%;
+        gap: 30%;
+        display: flex;
+    }
+
+    .pro{
+        color: white;
+        font-style: italic;
+        margin-left: 2%;
+        font-weight: bolder;
+    }
+
+    footer{
+        background: url(./plu.png);
+        background-size: 400%;
+        background-repeat: no-repeat;
+        color: white;
+        font-style: italic;
+        justify-content: center;
+        text-align: center;
+        padding: 3%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+   .main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7%;
+    margin: 5%;
+    padding: 20px;
+    width: 1200px;
+    height: 100vh;
+    }
+
+   .firstly{
+    box-shadow:  16px 15px rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 6%;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 500px;
+    padding: 15%;
+    max-height: 400px;
+    }
+
+
+   .firstly:hover{
+    background: rgb(193, 193, 193);
+    color: black;
+    transition:  2s ;
+   }
+
+
+   .again{
+    box-shadow:  16px 15px rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 15%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: black;
+    max-width: 500px;
+    max-height: 400px;
+   }
+
+
+   .bold{
+    background: rgb(255, 255, 255);
+    width: 80%;
+    padding: 2%;
+    margin-left: 6%;
+    color: black;
+   }
+
+
+   .large{
+    background: rgb(0, 0, 0);
+    width: 80%;
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    margin-left: 6%;
+    }
+   
+   
+</style>
+<body>
+    
+    <header>
+        <nav class="navbar"> 
+            <div class="pro">
+                <h3>Profile</h3>
+            </div>
+            <div class="anchor">
+                <a href="./profile.html">Home</a>
+                <a href=".//ab.html">About</a>
+                <a href="./cv.html">CV</a>
+                <a href="./cn.html">Contact</a>
+            </div>
+
+            <div class="me">
+                <p>   Here Me</p>         
+            </div>
+        </nav>
+    </header>
+
+
+<section>
+    <div class="main">
+
+            <div class="firstly"> 
+                <h4 class="bold">Contact</h4><br>
+                <p>+233 507185495 <br> +233 531360732 <br></p>
+            </div>
+        
+            <div class="again">
+                <h4 class="large">Address</h4><br><br>
+                <p>joe22coole@gmail.com<br> Assin Darman, <br> Assin South District <br>Central Region, <br> Ghana</p>
+            </div>
+
+            <div class="again">
+                <h4 class="large">Social media</h4><br>
+                <div style="font-size:24px;">
+                    <a href="https://instagram.com/dan___ny___" target="_blank"><img src="./ig.png" alt="Instagram" width="80">
+                    </a>
+                    <a href="https://wa.me/+233507185495" target="_blank" ><img src="./wa.png" alt="whatsapp" width="80"></a>
+                    <a href="https://t.me/Joe Cole" target="_blank" ><img src="./gram.png" alt="telegram" width="80"></a>
+                  </div>
+            </div>
+
+            <div class="firstly">
+                <h4 class="bold">Contact</h4><br>
+                <p>Unwavering Faith 🔥, ✝ Ultimate Believe, Depending On The Lord 🤲,  <br> ⚔ For The Glory 
+                <br> By The Grace 🛡 <br> 😤 Discipline, Consistency 😤, <br> 🦾 Hardwork  </p>
+            </div>
+
+    </div>
+     
+
+
+
+
+
+
+</section>
+<br><br>
+
+
+    <footer>
+
+        <h3>&copy; my cv
+        </h3>
+
+
+    </footer>
+
+
+</body>
+</html>

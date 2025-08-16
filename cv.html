@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY VC </title>
+</head>
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        
+    }
+
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: linear-gradient(90deg, #e5f0fb 30%, #e6ffe6 50%);
+        background-size: 400%;
+        animation: back 3s infinite alternate-reverse;
+        
+    }
+
+
+    .navbar{
+        justify-content: space-between;
+        background: rgb(0, 0, 0);
+        display: flex;
+        padding: 30px;
+    }
+
+    .anchor{
+        margin-right: 10%;
+        gap: 30%;
+        display: flex;
+    }
+
+    .pro{
+        color: white;
+        font-style: italic;
+        margin-left: 2%;
+        font-weight: bolder;
+    }
+    footer{
+        background: black;
+        color: white;
+        font-style: italic;
+        justify-content: center;
+        text-align: center;
+        padding: 3%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .now{
+        padding: 40px;
+        gap: 20px;
+        justify-content: space-between;
+        display:flex;
+        width: 200vh;
+        font-size: 15px;
+        color: green;
+
+    }
+
+
+    @keyframes back {
+        0% {background-position: 100% 100%;}
+        100% {background-position: 0 0;}
+    }
+
+
+   .main{
+    display: flex;
+    gap: 50px;
+    padding: 2%;
+   }
+
+
+button{
+    width: 230px;
+    height: 230px;
+    border-radius: 30%;
+    box-shadow: 2px 3px 2px rgb(0, 98, 0);
+    padding: 30px;
+    background: white;
+    margin-top: 15%;
+    margin-left: 13%;
+    font-size: 20px;
+    color: rgb(0, 120, 40);
+    transform: translateX(3x);
+}
+
+#net{
+    width: 30vh;
+    padding: 1%;
+    box-shadow: 1px 2px 1px rgb(0, 98, 0);
+
+    background:  rgba(255, 255, 255, 0.3);
+}
+
+
+#nett{
+    width: 20vh;
+    padding: 1%;
+    background:  rgb(0, 98, 0);
+    color: white;
+}
+
+
+#nettt{
+    width: 40vh;
+    box-shadow: 1px 2px 1px rgb(0, 98, 0);
+
+    padding: 1%;
+    background:  rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+.metro{
+    margin: 3% 2%;
+    height: 50vh;
+    color: white;
+    gap:2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.part{
+    width: 130vh;
+    padding: 2%;
+    background: linear-gradient(70deg, green, black);
+    box-shadow: 2px 3px 4px rgb(0, 93, 39);
+}
+
+
+
+.young{
+    height: 50vh;
+    gap: 1%;
+    color: white;
+    margin:2%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.party{
+    width: 92vh;
+    padding: 2%;
+    color: rgb(0, 69, 0);
+    background:  rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 3px rgb(0, 75, 0);
+}
+
+
+
+.projects{
+    width: 25vh;
+    height: 15vh;
+}
+
+
+.jet {
+    padding: 0;
+    gap: 5px;                    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;         
+    justify-items: center;       
+}
+</style>
+
+
+<body>
+    
+    <header>
+        <nav class="navbar"> 
+            <div class="pro">
+                <h3>Profile</h3>
+            </div>
+            <div class="anchor">
+                <a href="./profile.html">Home</a>
+                <a href=".//ab.html">About</a>
+                <a href="./cv.html">CV</a>
+                <a href="./cn.html">Contact</a>
+            </div>
+            <div class="me">
+                <p>   Here Me</p>         
+            </div>
+        </nav>
+
+        
+    </header>
+
+
+<section>
+
+    <div class="metro">
+        <div class="part">
+            <h3>My Frontend projects</h3> <br>
+                <div class="jet">
+                    <img src="./1.png" alt="" class="projects">
+                    <img src="./2.png" alt="" class="projects">
+                    <img src="./3.png" alt="" class="projects">
+                    <img src="./4.png" alt="" class="projects">
+                    <img src="./1.png" alt="" class="projects">
+                    <img src="./2.png" alt="" class="projects">
+                    <img src="./3.png" alt="" class="projects">
+                    <img src="./4.png" alt="" class="projects">
+    
+                </div> <br>
+
+                
+
+                  <div>
+                    <h3>URL for projects: <br><a href="https://www.awwwards.com/" target="_blank" rel="noopener noreferrer">
+                       <span>1.</span> Visit Awwwards for design,
+                      </a> <span>2.</span> <a href="https://jacekjeznach.com/" class="portfolio-link-btn" target="_blank">
+                        View 3D Portfolio
+                      </a> <a href="https://jacekjeznach.com/" class="portfolio-link-btn" target="_blank">
+                           <span>3.</span> View master 
+                      </a> <br><a href="https://jacekjeznach.com/" class="portfolio-link-btn" target="_blank">
+                        <span>4.</span>View 3D Portfolio </a> <a href="https://jacekjeznach.com/" class="portfolio-link-btn" target="_blank"> <span>3.</span> View master 
+                   </a> 
+                   </h3>
+                  </div>
+        </div>
+        <div class="download">
+            <a href="./letter head.pdf" download="letter head.pdf" target="_blank">
+                <button class="down" onclick="" title="download cv">
+                    <h3>click here  to download <br>⬇<br> cv</h3> 
+                </button>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="young">
+        <div class="party">
+            <h3>Data Analysis</h3> <br>
+            <div>
+                <img src="./charts-change-over-time.webp" alt="" class="projects">
+                <img src="./Kibana-data-visualization.webp" alt="" class="projects">
+                <img src="./The-Search-for-Dark-Matter.webp" alt="" class="projects">
+                <img src="./Trends.webp" alt="" class="projects">
+                <img src="./The-Search-for-Dark-Matter.webp" alt="" class="projects">
+                <img src="./charts-change-over-time.webp" alt="" class="projects">
+             
+            </div>
+        </div>
+        <div class="party">
+            <h3>Graphic Design</h3> <br>
+                <div>
+                    <img src="./acid.jpg" alt="" class="projects">
+                    <img src="./hbd.jpg" alt="" class="projects">
+                    <img src="./skills.jpg" alt="" class="projects">
+                    <img src="./Backup_of_JERUSALEM PRAYER MINISRTY.jpg" alt="" class="projects">
+                    <img src="./acid.jpg" alt="" class="projects">
+                    <img src="./4x2.5.jpg" alt="" class="projects">
+                </div>
+        </div>
+        
+
+    </div>
+
+    <div class="main">
+        <div class="now">
+            Data Analysts  <div id="net"><span class="try">90%</span></div> 
+            Frontend Web Development  <div id="nett"><span>60%</span></div> 
+            Graphic Designer  <div id="nettt"><span>94%</span></div>  
+        </div> 
+       
+    </div>
+     
+
+   
+
+
+</section>
+<br><br>
+
+
+    <footer>
+
+        <h3>&copy; my cv
+        </h3>
+
+
+    </footer>
+
+
+</body>
+</html>

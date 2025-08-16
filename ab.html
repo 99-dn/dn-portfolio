@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY VC </title>
+</head>
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        
+    }
+
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: linear-gradient(90deg, #e5f0fb 30%, #e6ffe6 50%);
+        background-size: 400%;
+        animation: back 3s infinite alternate-reverse;
+    }
+
+    
+    @keyframes back {
+        0% {background-position: 100% 100%;}
+        100% {background-position: 0 0;}
+    }
+
+    .navbar{
+        justify-content: space-between;
+        background: rgb(0, 0, 0);
+        display: flex;
+        padding: 30px;
+    }
+
+    .anchor{
+        margin-right: 10%;
+        gap: 30%;
+        display: flex;
+    }
+
+   
+    footer{
+        background: url(./plu.png);
+        background-size: 400%;
+        background-repeat: no-repeat;
+        color: white;
+        font-style: italic;
+        justify-content: center;
+        text-align: center;
+        padding: 3%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .only{
+        margin: 2%;
+        padding: 3%;
+        height: 30vh;
+        color: white;
+        background: linear-gradient(30deg, green, black);
+    }
+      .pulse-line {
+        width: 80%;
+        margin-left: 10%;
+        height: 5px;
+        background-color: #ffffff;
+        animation: pul 1.5s ease-in-out infinite;
+      }
+      
+      @keyframes pul {
+        0%, 100% { transform: scaleX(0.3); opacity: 0.5;}
+        50% {transform: scaleX(1); opacity: 1;}
+      }
+    
+
+   .main{
+    margin: 1.8%;
+    width: 80vh;
+    padding: 2%;
+   
+    }
+
+   .firstly{
+    color: rgb(0, 0, 0);
+    width: 80vh;
+    height: 80vh;
+    font-size: 17px;
+    }
+
+    .master{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .second{
+        color: rgb(1, 99, 52);
+        width: 80vh;
+        height: 80vh;
+        padding: 4%;
+        text-align: center;
+        font-size: larger;
+    }
+
+    #top{
+        background:linear-gradient(270deg, rgb(219, 255, 254), rgb(253, 249, 255));
+        color: rgb(13, 100, 0);
+        box-shadow: 4px 3px 4px green;
+
+        padding: 3%;
+        height: 40vh;
+    }
+    #bottom{
+        height: 40vh;
+        color: white;
+        padding: 3%;
+        background:linear-gradient(70deg, green, black);
+
+    }
+
+    .move{
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        height: 240px;
+    }
+    .move img{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 2px 3px 2px rgb(0, 61, 0);
+        transition: all ease-in-out 0.5s;
+    }
+    .move img:hover{
+        width: 10%;
+    }
+
+    .span1{
+        
+        background: rgb(0, 129, 58);
+        padding: 4%;
+        margin-left: 35%;
+        border-radius: 40%;
+        color: white;
+    }
+    .span2{
+        background: rgb(255, 255, 255);
+        padding: 3.2%;
+        border-radius: 40%;
+
+        color:  rgb(0, 129, 58) ;
+        margin-left: 32%;
+    }
+
+    
+  
+</style>
+<body >
+    
+    <header>
+        <nav class="navbar"> 
+            <div class="pro">
+                <h3>Profile</h3>
+            </div>
+            <div class="anchor">
+                <a class="ar" href="./profile.html">Home</a>
+                <a class="ar" href=".//ab.html">About</a>
+                <a class="ar" href="./cv.html">CV</a>
+                <a class="ar" href="./cn.html">Contact</a>
+            </div>
+            <div class="me">
+                <p>   Here Me</p>         
+            </div>
+        </nav>
+
+      
+    </header>
+
+
+<section>
+
+    <div class="only">
+        <div class="pulse-line"></div>
+
+        <h3 class="in">
+            🎓My name is Dan Nyarkoh Andoh, a computer science graduate (Bachelor in Computer Science) from the University of Cape Coast, Ghana.
+            📙SHS St. Augustines College (November,2018 - October,2021)
+            📖Elementary and JHS St. Luois Catholic (2009-2018), 
+            🎨 A Graphic design, a Data analysts and also a frontend developer with freeCodecamp, w3school and greekforgreek frontend certificate
+            (Html certifitcate, Css certificate, JavaScript certificate, Vue, Anugualar and React certificate) and data analysis certificates.
+        </h3>
+    </div>
+
+<div class="master">
+    <div class="main">
+        <div class="firstly"> 
+            <div id="top"><span class="span1">Data Analyst</span> <br><br>Data Analyst skilled in transforming raw data into actionable insights using SQL, Python (Pandas, NumPy),
+                 and visualization tools (Power BI, Tableau). Experienced in cleaning datasets, building dashboards, and delivering data-driven recommendations to 
+                 optimize business decisions. Strong analytical thinker with expertise in statistical analysis, trend identification, and KPI reporting. 
+                 Passionate about storytelling with data and automating workflows for efficiency. </div><br>
+                 
+            <div id="bottom"><span class="span2">Graphic Designer</span> <br> <br>
+                Graphic Designer specializing in brand identity, digital illustrations, and print/web design with proficiency in Adobe Creative Suite 
+                (Photoshop, Illustrator, InDesign) and Figma. Combines artistic creativity with technical precision to deliver visually compelling designs 
+                that align with client objectives. Experienced in typography, color theory, and responsive layouts for marketing materials, social media, 
+                and UI/UX projects. Passionate about storytelling through design while meeting deadlines and brand guidelines.
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="main">
+        <div class="second"> 
+            <div>Frontend Developer</div><br>
+            <div>I am a Frontend Developer with expertise in building responsive, user-friendly web applications using modern technologies like HTML5, CSS3, JavaScript (ES6+), 
+                and React. Passionate about creating pixel-perfect UIs, optimizing performance, and delivering seamless cross-device experiences. Strong advocate for clean
+                 code, accessibility (a11y), and collaborative development. Continuously learning to stay updated with industry trends.
+            </div> <br>
+                <div class="move">
+                    <img src="./nine.jpg" alt="svee">
+                    <img src="./five.jpg" alt="ee">
+                    <img src="./iw.jpg" alt="eef">
+                    <img src="./three.jpg" alt="ewf">
+                    <img src="./one.jpg" alt="gjg" >
+                </div>
+         </div>
+    </div>
+
+
+
+</div>
+   
+
+</section> <br> <br> <br><br> <br> <br>
+
+
+
+    <footer>
+
+        <h3>&copy; my cv
+        </h3>
+
+
+    </footer>
+
+
+</body>
+</html>
